@@ -1,62 +1,3 @@
-<style>
-    
-    body {
-        font-family: "Lucida Console", "Courier New", monospace;
-        text-align: center;
-        background-image: linear-gradient(rgb(146, 155, 216), rgb(72, 94, 192));
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin: 0;
-        min-height: 100vh;
-        animation: fadeIn 3s;
-    }
-
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    
-    }
-    .anothercontainter{
-        top: 50%;
-        left: 50%;
-    }
-    button{
-        color: rgb(0, 255, 4);
-        border-radius: 9px;
-        border-color: rgb(31, 0, 34);
-        border-style:solid;
-        background-color: rgb(20, 0, 28);
-        box-shadow: 30%;
-    }
-    button:hover{
-    
-        color: rgb(0, 238, 255);
-        border-radius: 6px;
-        border-color: rgb(0, 0, 0);
-        background-color: rgb(29, 29, 29);
-    }
-    footer h6{
-        color:aliceblue;
-    }
-    a{
-        color: rgb(238, 191, 255);
-        text-decoration: none;
-        font-weight: bold;
-
-    }
-    a:hover{
-        font-weight: lighter;
-        color: rgb(30, 0, 121);
-    }
-    @keyframes fadeIn {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
-    }
-</style>
-
 <script>
     let firstSentance = ""
     let secondSentance = ""
@@ -97,14 +38,6 @@
 
 
 <body>
-    <br>
-    <header>
-        <br>
-        <br>
-        <a href="/blog">blog</a>
-        <br>
-        <br>
-    </header>
     <div class="container">
         <div class="anothercontainter">
             <embed src="../favicon.png" width="70" height="70">
@@ -131,10 +64,10 @@
     </div>
     <footer>
         <br>
-        <a href="https://twitter.com/realzvqle">twitter⠀⠀⠀⠀</a>
-        <a href="https://youtube.com/zvqle">youtube⠀⠀⠀⠀</a>
-        <a href="https://github.com/realzvqle">github⠀⠀⠀⠀</a>
+        <a href="https://twitter.com/realzvqle">twitter</a>
+        <a href="https://youtube.com/zvqle">⠀⠀⠀⠀youtube</a>
+        <a href="https://github.com/realzvqle">⠀⠀⠀⠀github</a>
         <br>
-        <h6>Copyright "zvqle", all rights reserved⠀⠀⠀⠀</h6>
+        <h6>Copyright "zvqle", all rights reserved</h6>
     </footer>
 </body>
